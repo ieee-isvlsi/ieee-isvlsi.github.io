@@ -1,0 +1,139 @@
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 2.5px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  width: 80%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 7px #999;
+}
+
+.button:hover {background-color: gray}
+
+.button:active {
+  background-color: gray;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 2.5px 30px;
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 0 7px #999;
+  /*border-style: solid;*/
+  border-width: 0.5px;
+
+}
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .mainmenu_active, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+
+.mainmenu_active a {
+  display: block;
+  background-color: #C5C5C5;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+/* add hover behaviour */
+.mainmenu_active a:hover {
+    background-color: #C5C5C5;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+.mainmenu_active li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 2.5px 30px;
+  text-decoration: none; /* Remove underline from links */
+  text-align: center;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 0 7px #999;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: gray;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #C5C5C5;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+
+arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
