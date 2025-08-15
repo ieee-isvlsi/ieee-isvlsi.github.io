@@ -1,9 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 
-
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:34:52 GMT -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
   <meta charset="utf-8">
@@ -28,6 +27,15 @@
 
   gtag('config', 'G-HXW5MFWZJZ');
 </script>
+<script>
+	$(document).ready(function(){
+	  $('.dropdown-submenu a.dropdown-toggle').on("click", function(e){
+		$(this).next('ul').toggle();
+		e.stopPropagation();
+		e.preventDefault();
+	  });
+	});
+  </script>
 </head>
 
 <body>
@@ -36,7 +44,7 @@
     <center>
     <table style="table-layout:fixed;width=100%;margin-left:1%">
 	<tr>
-	<td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
+	<td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="./Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
 	<td style="">
 	<div class="container" style="width:100%">
       <div class="navbar-header">
@@ -49,46 +57,59 @@
 		  <li><a href="index.html" style="color:white;font-size:17px">Home</a></li>
 		  
 		  <li class="dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Call for Papers<span class="caret"></a>
-			<ul class="dropdown-menu" style="color:white;background-color:white">
-			<li><a href="call-for-papers.html" style="color:black;">Main Conference Track</a></li>
-			<li><a href="call-for-special-sessions.html" style="color:black;">Special Sessions</a></li>
-			<li><a href="call-for-industry-forum.html" style="color:black;">Industry Forum</a></li>
-			<li><a href="call-for-student-forum.html" style="color:black;">Student Research Forum</a></li>
-      <li><a href="collaborative-research-projects.html" style="color:black;">Collaborative Research Projects</a></li>
-			<li><a href="research_demo_session.html" style="color:black;">Research Demo Session</a></li>
-      <li><a href="call-for-late-breaking-research.html" style="color:black;">Late Breaking Research</a></li>     
-			<li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">CfP & Submission<span class="caret"></a>
+			<ul class="dropdown-menu" style="color:white;background-color:white">	
+			  <li class="dropdown-submenu">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:black;font-size:17px">Call for Papers<span class="caret"></a>
+				<ul class="dropdown-menu" style="color:white;background-color:white">
+				<li><a href="call-for-papers.html" style="color:black;">Main Conference Track</a></li>
+				<li><a href="call-for-special-sessions.html" style="color:black;">Special Sessions</a></li>
+				<li><a href="call-for-industry-forum.html" style="color:black;">Industry Forum</a></li>
+				<li><a href="call-for-student-forum.html" style="color:black;">Student Research Forum</a></li>
+				<li><a href="collaborative-research-projects.html" style="color:black;">Collaborative Research Projects</a></li>
+				<li><a href="research_demo_session.html" style="color:black;">Research Demo Session</a></li>
+				<li><a href="call-for-late-breaking-research.html" style="color:black;">Late Breaking Research</a></li>     
+				<li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+				</ul>
+			  </li>
+			  
+			  <li><a href="paper.html" style="color:black;font-size:17px">Paper Submission</a></li>
 			</ul>
-		  </li>
-		  
-		  <li><a href="paper.html" style="color:white;font-size:17px">Paper Submission</a></li>
+			</li>
             <li><a href="registration2025.html" style="color:white;font-size:17px">Registration</a></li>
-            <li><a href="nsf-travel-grants.html" style="color:white;font-size:17px">NSF Travel Grants</a></li>
+            
             <li><a href="keynotes.html" style="color:white;font-size:17px">Keynotes</a></li>
             <li><a href="tutorials.html" style="color:white;font-size:17px">Tutorials</a></li>
+			<li><a href="smart4women.html" style="color:white;font-size:17px">Smart4Women</a></li>
             <li><a href="committees.html" style="color:white;font-size:17px">Committees</a></li>
-		  
-		  <li><a href="venue.html" style="color:white;font-size:17px">Venue</a></li>
-		  <li><a href="social-event.html" style="color:white;font-size:17px">Events & Tourism</a></li>
+
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Travel to Greece<span class="caret"></a>
+			<ul class="dropdown-menu" style="color:white;background-color:white">
+			<li><a href="nsf-travel-grants.html" style="color:black;font-size:17px">NSF Travel Grants</a></li>
+			<li><a href="venue.html" style="color:black;font-size:17px">Venue & VISA</a></li>
+			<li><a href="social-event.html" style="color:black;font-size:17px">Events & Tourism</a></li>
+			</ul>
+		</li>
+
 		 <li class="dropdown">
 		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Past Conferences <span class="caret"></a>
 		  <ul class="dropdown-menu" style="color:white;background-color:white">
 	<li>
-	<a href="../ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a>
+	<a href="http://www.ieee-isvlsi.org/ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a>
 	</li>
-			<li><a href="../ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
-			<li><a href="../ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
-			<li><a href="../ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
-			<li><a href="../ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
-			<li><a href="../ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
-			<li><a href="../ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
-			<li><a href="../ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
-			<li><a href="../ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
-			<li><a href="../ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
-			<li><a href="../ISVLSI_2014_Website/index.html" target="_blank" style="color:black;">ISVLSI 2014</a></li>
-			<li><a href="../ISVLSI_2013_Website/index.html" target="_blank" style="color:black;">ISVLSI 2013</a></li>
-			<li><a href="../ISVLSI_2012_Website/index.html" target="_blank" style="color:black;">ISVLSI 2012</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2014_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2014</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2013_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2013</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2012_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2012</a></li>
 			
 		  </ul>
 		 </li>
@@ -156,6 +177,9 @@
       <div class="row">
         <div class="col-md-12">
           <center>
+            <h1><strong><a href="#program" style="color:red">Conference Program is now available!</a></strong></h1>
+            <h1><strong><a href="#BPN" style="color:red">Best Paper Nominees &amp; Best Paper Awards</a></strong></h1>
+            
             <h1>ISVLSI 2025</h1>
             <!-- <h3></h3> -->
           </center>
@@ -167,24 +191,24 @@
 			<h3>Contributions are sought in the following tracks:</h3>
             <ul style="text-align: justify">
               <li><strong>Circuits, Reliability, and Fault-Tolerance (CRT): </strong><br>
-			  Analog/mixed-signal circuits design and testing, RF and communication circuits, adaptive circuits and interconnects, design for testability, online testing techniques, static and dynamic defect- and fault- recoverability, variation aware design, VLSI aspects of sensor and sensor network.<br></li>
+			  Analog/mixed-signal circuits design and testing, RF and communication circuits, adaptive circuits and interconnects, design for testability, online testing techniques, static and dynamic defect- and fault- recoverability, variation aware design, VLSI aspects of sensor and sensor network.</li>
 			  <li><strong>Computer-Aided Design and Verification (CAD): </strong><br>
-			  Hardware/software co-design, logic and behavioral synthesis, simulation and formal verification, physical design, signal integrity, power and thermal analysis, statistical approaches.<br></li>
+			  Hardware/software co-design, logic and behavioral synthesis, simulation and formal verification, physical design, signal integrity, power and thermal analysis, statistical approaches.</li>
 			  <li><strong>Digital Circuits and FPGA based Designs (DCF): </strong><br>
-			  Digital circuits, chaos/neural/fuzzy-logic circuits, high speed/low-power circuits, energy efficient circuits, near and sub-threshold circuits, memories, FPGA designs, FPGA based systems.<br></li>
+			  Digital circuits, chaos/neural/fuzzy-logic circuits, high speed/low-power circuits, energy efficient circuits, near and sub-threshold circuits, memories, FPGA designs, FPGA based systems.</li>
 			  <li><strong>Emerging and Post-CMOS Technologies (EPT): </strong><br>
-			  Nanotechnology, molecular electronics, quantum devices, optical computing, spin-based computing, biologically-inspired computing, CNT, SET, RTD, QCA, reversible logic, and CAD tools for emerging technology devices and circuits.<br></li>
+			  Nanotechnology, molecular electronics, quantum devices, optical computing, spin-based computing, biologically-inspired computing, CNT, SET, RTD, QCA, reversible logic, and CAD tools for emerging technology devices and circuits.</li>
 			  <li><strong>System Design and Security (SDS): </strong><br>
-			  Structured and custom design methodologies, microprocessors/micro-architectures for performance and low power, embedded processors, analog/digital/mixed-signal systems, NoC, power and temperature aware designs, hardware security, cryptography, watermarking, and IP protection, TRNG and security-oriented circuits, PUF circuits.<br></li>
+			  Structured and custom design methodologies, microprocessors/micro-architectures for performance and low power, embedded processors, analog/digital/mixed-signal systems, NoC, power and temperature aware designs, hardware security, cryptography, watermarking, and IP protection, TRNG and security-oriented circuits, PUF circuits.</li>
 			  <li><strong>VLSI for Applied and Future Computing (AFC): </strong><br>
-			  Neuromorphic and brain-inspired computing, quantum computing, circuits and architectures for machine learning and artificial intelligence, methodologies for on-chip learning, deep learning acceleration techniques, applications for and use-cases of learning systems, sensor and sensor network, electronics for Internet of Things and smart medical devices.<br>
+			  Neuromorphic and brain-inspired computing, quantum computing, circuits and architectures for machine learning and artificial intelligence, methodologies for on-chip learning, deep learning acceleration techniques, applications for and use-cases of learning systems, sensor and sensor network, electronics for Internet of Things and smart medical devices.
 		      </li>
-			 </ul>
+		    </ul>
               <!--<a href="https://www.sympla.com.br/evento/isvlsi-2023-ieee-computer-society-annual-symposium-on-vlsi/1882673?lang=PT" style="text-decoration: underline; color: red;">Click here to do the registration.</a>-->
 <br>
             <p style="text-align: justify"><strong>Selected papers from ISVLSI 2025 (main tracks & special sessions) will be invited for submission to 
               special issue on  <a style="color:blue" href="https://ieee-cas.org/publication/tvlsi" target="_blank">IEEE Transactions on Very Large Scale Integration (VLSI) Systems</a> and <a style="color:blue" href="https://dl.acm.org/journal/jetc" target="_blank"><strong>ACM Journal on Emerging Technologies in Computing Systems</strong></a>. The selection process is based on reviewers' feedback and quality of conference presentation.</strong></p>
-            <p style="text-align: justify">Extended versions of papers accepted  in <a style="color:blue" href="quantum-computing-workshop.html" target="_blank" rel="noreferrer"><strong>Quantum Computing Workshop</strong></a> will be invited to peer-reviewed journals such as <a style="color:blue" href="https://dl.acm.org/journal/TQC" target="_blank" rel="noreferrer"><strong>ACM Transactions on Quantum Computing</strong></a> and <a style="color:blue" href="https://www.springernature.com/" target="_blank" rel="noreferrer"><strong>Springer Nature Computer Science</strong></a>.</p>
+            <p style="text-align: justify">Extended versions of papers accepted  in <a style="color:blue" href="https://www.ieee-isvlsi.org/ISVLSI_2025_Website/quantum-computing-workshop.html" target="_blank" rel="noreferrer"><strong>Quantum Computing Workshop</strong></a> will be invited to peer-reviewed journals such as <a style="color:blue" href="https://dl.acm.org/journal/TQC" target="_blank" rel="noreferrer"><strong>ACM Transactions on Quantum Computing</strong></a> and <a style="color:blue" href="https://www.springernature.com/" target="_blank" rel="noreferrer"><strong>Springer Nature Computer Science</strong></a>.</p>
           </center>
           <br>
           <br>
@@ -217,7 +241,7 @@
       <center>     
 		  <h1>Author Guidelines</h1>
 		  <p style="text-align: justify;margin-bottom:0px">
-		  <strong>Paper Submission: </strong> Authors are invited to submit full-length (6 pages maximum), original, unpublished papers along with an abstract of at most 200 words. Previously published papers or papers currently under review for other conferences/journals should NOT be submitted and will not be considered. <b>To enable blind review, the author list should be omitted from the main document.</b> The manuscript as a single PDF is to be submitted online through Easychair. The manuscript as a single PDF is to be submitted online through Easychair. <b>The IEEE Manuscript Template for Conference Proceedings should be used</b>, which can be found <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">here</a>.<br><br></p>
+		  <strong>Paper Submission: </strong> Authors are invited to submit full-length (6 pages maximum), original, unpublished papers along with an abstract of at most 200 words. Previously published papers or papers currently under review for other conferences/journals should NOT be submitted and will not be considered. <b>To enable blind review, the author list should be omitted from the main document.</b> The manuscript as a single PDF is to be submitted online through Easychair. The manuscript as a single PDF is to be submitted online through Easychair. <b>The IEEE Manuscript Template for Conference Proceedings should be used</b>, which can be found <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">here</a>.</p>
 		  <!--<strong>Special Sessions Submission:</strong> Prepare a single PDF file (not exceeding 3 pages) for the proposal where you:</p>
 			<ul style="margin-left:30px;text-align: justify">
 			<li>describe the session topic, the format, and intended audience, and<br></li>
@@ -225,8 +249,376 @@
 			</ul>
 		  <p style="text-align: justify">Submit your special session proposal in EasyChair (See Paper Submission Page for more details).</p>-->
 		  
-		  <p>More information can be found on the <a href="paper.html" target="_blank">Paper Submission</a> page.</p>
-		  <br><br>
+		  <p style="text-align:justify;">More information can be found on the <a href="./paper.html" target="_blank">Paper Submission</a> page.</p>
+		  <p style="text-align:justify;">For information regarding <strong>visa requirements for travel to Greece</strong>, we recommend referring to the conference <a href="https://www.ieee-isvlsi.org/ISVLSI_2025_Website/venue.html" target="_blank" rel="noreferrer">venue</a> section, where you will find the most up-to-date and relevant details to assist with your travel preparations.</p>
+		  <h1 id="program">Conference Program		  </h1>
+		  <h3 style="color:red"><strong>All times listed below are in GMT+3 Time Zone (Athens, Greece)</strong></h3>
+          <br>
+
+		  <table style="text-align: center;" width="100%" border="1" align="center" cellpadding="0" cellspacing="0">
+		    <col width="105">
+		    <col width="128" span="4">
+		    <tr>
+		      <td colspan="5" bgcolor="#33FFFF"><div align="center"><strong>Sunday, July 6th 2025</strong></div></td>
+	        </tr>
+<!--		    <tr>
+		      <td width="125" bgcolor="#CCCCCC">17.00 - 20.30</td>
+		      <td colspan="4" bgcolor="#FFE8FF">Registration</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">20.00 - 23.00</td>
+		      <td colspan="4" bgcolor="#FFE8FF">Welcome cocktail</td>
+	        </tr> -->
+		    <tr>
+		      <td width="125" bgcolor="#CCCCCC">20.30 - 23.00</td>
+		      <td colspan="4" bgcolor="#FFE8FF"><a href="images/katopsi_isogeiou.png" target="_blank">Registration*, conference materials collection &amp; Welcome Cocktail Reception</a><br>
+	          <em>Registered participants are invited to collect their  welcome conference pack and enjoy an informal welcome reception by the pool, offering a beautiful view of the Messinian Bay and the opportunity to get acquainted with fellow attendees.</em></td>
+	        </tr>
+	      </table>
+		  <p style="text-align: justify; color: green">*On-site registration and conference materials collection will also be available at the registration desk throughout the entire duration of the conference</p>
+		  <table style="text-align: center;" width="100%" border="1" align="center" cellpadding="0" cellspacing="0">
+		    <col width="105">
+		    <col width="128" span="4">
+		    <tr>
+		      <td colspan="5" bgcolor="#FFFF00"><div align="center"><strong>Monday,  July 7th 2025</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">08.00 - 08.10</td>
+		      <td colspan="4" bgcolor="#FFE8FF">Conference Opening<br>
+		        <em>Prof. Nikolaos Voros &amp; Prof. Michael Huebner<br>
+	          General Chairs<br>
+	          <a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a>		        </em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">08.10 - 08.20</td>
+		      <td colspan="4" bgcolor="#FFE8FF">Conference Program Overview<br>
+		        <em>Prof. Georgios Keramidas, Prof. Paris Kitsos, Prof. Diana Goehringer<br>
+	          Program Chairs<br>
+	          <a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a>		        </em></td>
+	        </tr>
+		    <tr>
+		      <td width="125" bgcolor="#CCCCCC">08.20 - 08.30</td>
+		      <td colspan="4" bgcolor="#FFE8FF">Welcome from the University of the Peloponnese<br>
+		        <em>Prof. Athanasios Katsis<br>
+	          Rector<br>
+	          <a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a>		        </em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">08.30 - 09.30</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#Sakir_Sezer" target="_blank">Keynote 1 (Sakir Sezer)</a><br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">09.35 - 11.15</td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MTL1" target="_blank">Main Track (L) 1</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MTL2" target="_blank">Main Track (L) 2</a></td>
+		       <td bgcolor="#CCCCCC"><a href="tutorials.html#Chakrabarti_Deb_Das" target="_blank">Tutorial (Amlan Chakrabarti, Sujay Deb)<!--, Subhra Kanti Das)--></a></td> 
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.15 - 11.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.40 - 13.00</td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MT1" target="_blank">Main Track 1</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MT2" target="_blank">Main Track 2</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#SS4" target="_blank">SS: SbD</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">13.00 - 14.00</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Lunch </strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">14.00 - 15.00</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#Alexis_Birbas" target="_blank">Keynote 2 (Alex Birbas)</a><br>
+	         <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">15.00 - 16.20</td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MT3" target="_blank">Main Track 3</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#SS1" target="_blank">SS: NewGenWT</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#SS7" target="_blank">SS: AI-HW</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#SS6" target="_blank">SS: EDA-UET</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.20 - 16.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.40 - 18.00</td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#MT4" target="_blank">Main Track 4</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#PP1" target="_blank">Poster    Presentation Session 1</a></td>
+		      <td bgcolor="#FFFF00"><a href="conference_sessions.html#SS2" target="_blank">SS: AESA</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td colspan="5" bgcolor="#99FFFF"><div align="center"><strong>END</strong></div></td>
+	        </tr>
+	      </table>
+		  <p>&nbsp;</p>
+		  <table style="text-align: center;" width="100%" border="1" align="center" cellpadding="0" cellspacing="0">
+		    <col width="105">
+		    <col width="128" span="4">
+		    <tr>
+		      <td colspan="5" bgcolor="#0099CC"><div align="center"><strong>Tuesday, July 8th 2025</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td width="125" bgcolor="#CCCCCC">08.30 - 09.30</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#Cristina_Silvano" target="_blank">Keynote 3 (Cristina Silvano)</a><br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">09.35 - 11.15</td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#MTL3" target="_blank">Main Track (L) 3</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#MTL4" target="_blank">Main Track (L) 4</a></td>
+		      <td bgcolor="#CCCCCC"><a href="tutorials.html#Brandon_Wang" target="_blank">Tutorial (Brandon Wang)</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.15 - 11.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.40 - 13.00</td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#MT5" target="_blank">Main Track 5</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#SS9" target="_blank">SS: RRAI-I</a></td>
+		      <td bgcolor="#CCCCCC"><a href="tutorials.html#Ricardo_Reis" target="_blank">Tutorial (Ricardo Reis)</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">13.00 - 14.00</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Lunch </strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">14.00 - 15.00</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#PierreEmmanuel_Gaillardon" target="_blank">Keynote 4 (Pierre-Emmanuel Gaillardon)</a><br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">15.00 - 16.20</td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#ES2" target="_blank">SRF</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#SS9" target="_blank">SS: RRAI-II</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#SS5" target="_blank">SS: SSAI-CTC-I</a></td>
+		      <td bgcolor="#FF6600"><a href="smart4women.html" target="_blank">Smart4Women</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.20 - 16.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.40 - 18.00</td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#SS11" target="_blank">SS: MInSenseCA</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#PP2" target="_blank">Poster Presentation Session 2</a></td>
+		      <td bgcolor="#0099CC"><a href="conference_sessions.html#SS5" target="_blank">SS: SSAI-CTC-II</a></td>
+		      <td bgcolor="#FF6600"><a href="smart4women.html" target="_blank">Smart4Women</a></td>
+	        </tr>
+		    <tr>
+		      <td colspan="5" bgcolor="#99FFFF"><div align="center"><strong>END</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">20.00 - 23.30</td>
+		      <td colspan="4" bgcolor="#999999"><div align="center">Conference Social Event, Best Papers Awards and Presentation of IEEE ISVLSI 2026<br>
+		        <a href="https://www.tripadvisor.com.gr/Restaurant_Review-g668020-d7161845-Reviews-Trilogia-Kalamata_Messenia_Region_Peloponnese.html" target="_blank" rel="noreferrer"><em>Trilogia Restaurant</em></a> | <a href="https://maps.app.goo.gl/4gXsSRTkAqrDxSrm8" target="_blank" rel="noreferrer"><em>Google Maps</em></a>		      </div></td>
+	        </tr>
+	      </table>
+		  <p>&nbsp;</p>
+		  <table style="text-align: center;" width="100%" border="1" align="center" cellpadding="0" cellspacing="0">
+		    <col width="105">
+		    <col width="128" span="4">
+		    <tr>
+		      <td colspan="5" bgcolor="#99CC99"><div align="center"><strong>Wednesday, July 9th 2025</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td width="125" bgcolor="#CCCCCC">08.30 - 09.30</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#Mircea_Stan" target="_blank">Keynote 5 (Mircea Stan)</a><br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">09.35 - 11.15</td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#MTL5" target="_blank">Main Track (L) 5</a></td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#MTL6" target="_blank">Main Track (L) 6</a></td>
+			  <td bgcolor="#99CC99"><a href="conference_sessions.html#ES1" target="_blank">CRP</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.15 - 11.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">11.40 - 13.00</td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#MT6" target="_blank">Main Track 6</a></td>
+		      <td bgcolor="#CCCCCC"><a href="tutorials.html#Aziz_Dang" target="_blank">Tutorial (Dharanidhar Dang, Ahmedullah Aziz)</a></td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#PS1" target="_blank">European Chips Competence Centers</a></td>
+		      <td bgcolor="#339900"><a href="conference_sessions.html#QC1" target="_blank">Quantum Computing 1</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">13.00 - 14.00</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Lunch </strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">14.00 - 15.00</td>
+		      <td colspan="4" bgcolor="#999999"><a href="keynotes.html#Alexander_Fish" target="_blank">Keynote 6 (Alexander Fish)</a><br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#E3C9AE">&nbsp;</td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#FF" target="_blank"><strong>Room:</strong> VOYAGER</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE B</a></td>
+		      <td bgcolor="#E3C9AE"><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE D</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">15.00 - 16.20</td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#MT7" target="_blank">Main Track 7</a></td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#SS8" target="_blank">SS: A2Z</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+		      <td bgcolor="#339900"><a href="conference_sessions.html#QC2" target="_blank">Quantum Computing 2</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.20 - 16.40</td>
+		      <td colspan="4" bgcolor="#99FFFF"><div align="center"><strong>Break</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">16.40 - 18.00</td>
+		      <td bgcolor="#000000">&nbsp;</td>
+		      <td bgcolor="#99CC99"><a href="conference_sessions.html#PP3" target="_blank">Poster Presentation Session 3</a></td>
+		      <td bgcolor="#000000">&nbsp;</td>
+		      <td bgcolor="#339900"><a href="conference_sessions.html#QC3" target="_blank">Quantum Computing 3</a></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">18.00 - 18.30</td>
+		      <td colspan="4" bgcolor="#999999">Official conference closure<br>
+	          <em><a href="conference_map.html#GF" target="_blank"><strong>Room:</strong> ROYAL CRUISE A</a></em></td>
+	        </tr>
+		    <tr>
+		      <td colspan="5" bgcolor="#99FFFF"><div align="center"><strong>END</strong></div></td>
+	        </tr>
+		    <tr>
+		      <td bgcolor="#CCCCCC">21.00 - 23.30</td>
+		      <td colspan="4" bgcolor="#999999">Farewell party</td>
+	        </tr>
+	      </table>
+		  <br>
+		  <h1 style="color:green"> The official ISVLSI 2025 conference booklet is available for  <a href="documents/IEEE_ISVLSI_20205_Official_Conference_Program.pdf" target="_blank">download</a></h1>
+		  <h2 id="BPN" style="text-align:justify;">🎓Best Paper Nominees – ISVLSI 2025</strong> 🏆</h2>
+		   
+		  <p style="text-align:justify;">We are pleased to announce the <strong>Best Paper Nominees</strong> for IEEE ISVLSI 2025. These papers have been selected by the Technical Program Committee based on their originality, technical depth and potential impact on the field.</p>
+		    <h3 style="text-align:justify;">
+		      Best Paper Nominees:</h3>
+		  <ul style="text-align: justify;margin-left:30px">
+		    <li>📄  <em>HEDGY: Heterogeneous Design Management for Multi-Tenant Multi-FPGA Edge Systems - </em>Ian Kersz, Arthur Ely, Pedro Alles, Michael Jordan, José Rodrigo Azambuja, Fernanda Kastensmidt and Antonio Carlos Schneider Beck. Universidade Federal do Rio Grande do Sul, Brazil</li>
+		    <li>📄 <em>Towards Improving Performance Metrics of Minority Majority Inverter Graph (mMIG) Circuits</em> - Mrunal Shende and Bodhisatwa Mazumdar. </li>
+		    <li>IIT Indore, India</li>
+		    <li>📄 <em>EXAMINER: IP Extraction Algorithm for MAGIC Logic-in-Memory - </em> Lorenzo Pfeifer, Rainer Leupers and Jan Moritz Joseph. RWTH Aachen University, Germany</li>
+		    <li>📄 <em>Hierarchical Optimization of Karatsuba Multipliers for ECDSA Hardware Accelerators</em>, Pruthvi Parate, Daksh Sharma, Alwin Shaju and Madhav Rao. IIIT Bangalore, India</li>
+		    <li>📄 <em>Sparse-Aware NTT: Accelerating Lattice-Based Cryptography on FPGAs -</em> Dixit Dutt Bohra, Dip Sankar Banerjee and Somitra Sanadhya. Indian Institute of Technology Jodhpur, India</li>
+		    <li>📄 <em>Catwalk: Unary Top-K for Efficient Ramp-No-Leak Neuron Design for Temporal Neural Networks </em>- Devon Lister, Prabhu Vellaisamy, John Shen and Di Wu. University of Central Florida, USA; Carnegie Mellon University, USA</li>
+		    <li>📄 <em>Flip-UnLock: An Anomaly Detection Attack on Flip-Flop-Based Logic Locking</em> - Armin Darjani, Nima Kavand and Akash Kumar. Ruhr University Bochum, Germany; Technical University of Dresden, Germany</li>
+		    <li>📄 RAT: RFET-based Analog Hardware Trojan - Nima Kavand, Armin Darjani, Tushar Niranjan and Akash Kumar. Technical University of Dresden, Germany; Birla Institute of Technology &amp; Science Pilani, India; Ruhr University Bochum, Germany</li>
+		    <li>📄 <em>A Low-Complexity XOR-Based BCH Decoder for PAM4 Modulation Systems</em> - Changfu He, Xinle Jia, Yuxing Chen, Wenli Xu, Suwen Song and Zhongfeng Wang. Nanjing University, China; Sun Yat-sen University, China</li>
+		    <li> 📄 <em>A 6T SRAM based reconfigurable in-memory  XOR/XNOR and accumulation architecture</em> - Cheena Singhal and Sparsh Mittal. IIT Roorkee, India</li>
+		    <li> 📄 <em>Boosting Scan Chain Security in a White-box through Restricted Pattern Filtering</em> - Leon Li and Alex Orailoglu .University of California, San Diego, USA</li>
+		    <li> 📄 <em>A Quasi Fat Tree-based Formation of Micro-Programmable Processing Elements for Machine Learning Applications</em> - Sepideh Kheirollahi, Sinatra Babele Khanshan and Zainalabedin Navabi. University of Tehran, Iran</li>
+		    <li> 📄 <em>Real-time Padel Strokes Classification</em>. Georgios Papaspyropoulos, Evanthia Faliagka, Theodoros Skandamis - Christos Antonopoulos and Nikolaos Voros. University of the Peloponnese, Greece</li>
+		    <li> 📄 <em>SIC Design Flow Using Simulink and Cadence Digital IC Design Tools</em> - Ava Hedayatipour, Charanya K Rao and Ashmitha Talluri. California State University, Long Beach, USA</li>
+		    <li> 📄 <em>Α Νοvel Firmware Architecture leveraging Race to Sleep paradigm for Ultra-Low-Power CPS -</em> Angelos Smyrilios, Evanthia Faliagka, Alexandros Spournias, Christos P. Antonopoulos and Nikolaos Voros. University of the Peloponnese, Greece</li>
+		    <li>📄 <em>MSDF-Based Hardware Accelerators for Energy-Efficient Neural Networks in Edge Computing Applications </em>- Sahar Moradi Cherati and Leonel Sousa. University of Lisbon, Portugal</li>
+		    <li>📄 <em>Accelerating Equation Solvers using Gauss-Jacobi on Multi-FPGA Systems with Ring NoC</em> - Shruti Patkar, Harsh, Souraja Kundu and Gaurav Trivedi. Indian Institute of Technology, India</li>
+		    <li>📄 <em>Aging Model Development for ASAP 7 nm PDK: Application in Aging-Aware Performance Prediction of Digital Logic and ADCs in Data Acquisition System</em> - Neha Gupta, Lomash Chandra Acharya, Mahipal Dargupally, Khoirom Johnson Singh, Amit Kumar Behera, Johan Euphrosine, Sudeb Dasgupta and Anand Bulusu. Indian Institute of Technology, India; Google Inc., USA</li>
+		    <li>📄 Real-Time Person Recognition Using MoveNet for Pose-Based Identification. Evanthia Faliagka, George Tefas, Christos P. Antonopoulos and Nikolaos Voros. University of the Peloponnese, Greece</li>
+	      </ul>
+		  <h2 style="text-align:justify;">
+		    🏆 <strong>IEEE ISVLSI 2025 – Best Paper Awards</strong> 🏆</h2>
+
+		  <p style="text-align:justify;">The IEEE ISVLSI 2025 Organizing Committee is delighted to announce the recipients of the <strong>Best Paper Awards</strong>, recognizing outstanding contributions to the field of Very Large Scale Integration.</p>
+
+		 <h2 style="text-align:justify;">🥇 Amar Mukherjee Best Paper Award of ISVLSI 2025</h2>
+
+	      <p style="text-align:justify;"><strong>Paper Title:</strong> <em>Catwalk: Unary Top-K for Efficient Ramp-No-Leak Neuron Design for Temporal Neural Networks</em><br>
+		    <strong>Authors:</strong> Devon Lister, Prabhu Vellaisamy, John Shen and Di Wu<br>
+		    <strong>Affiliations:</strong> University of Central Florida, USA; Carnegie Mellon University, USA</p>
+
+		   <h2 style="text-align:justify;">🥇 Nagarajan Ranganathan Best Paper Award of ISVLSI 2025</h2>
+
+		    <p style="text-align:justify;"><strong>Paper Title:</strong> <em>EXAMINER: IP Extraction Algorithm for MAGIC Logic-in-Memory</em><br>
+		    <strong>Authors:</strong> Lorenzo Pfeifer, Rainer Leupers and Jan Moritz Joseph<br>
+	      <strong>Affiliation:</strong> RWTH Aachen University, Germany</p>
+
+		    <h2 style="text-align:justify;">🥇 Best Poster Award of ISVLSI 2025</h2>
+
+		     <p style="text-align:justify;"><strong>Paper Title:</strong><em> RAT: RFET-based Analog Hardware Trojan</em><br>
+		    <strong>Authors:</strong> Nima Kavand, Armin Darjani, Tushar Niranjan and Akash Kumar<br>
+		    <strong>Affiliations:</strong> Technical University of Dresden, Germany; Birla Institute of Technology &amp; Science Pilani, India; Ruhr University Bochum, Germany</p>
+            
+		  <h2 style="text-align:justify;">🥇 Best Student Paper Award of ISVLSI 2025</h2>
+          
+          <p style="text-align:justify;"><strong>Paper Title:</strong> <em>MSDF-Based Hardware Accelerators for Energy-Efficient Neural Networks in Edge Computing Applications</em><br>
+		  <strong>Authors:</strong> Sahar Moradi Cherati and Leonel Sousa<br>
+		    <strong>Affiliation: </strong>University of Lisbon, Portugal</p>
+		    <h2 style="text-align:justify;">🥇Best Paper Awards of the ISVLSI 2025 Workshop on Quantum Computing</h2>
+
+		     <p style="text-align:justify;"><strong>Paper Title:</strong> <em>RaptorQu: Electromagnetic Modeling of Superconductors</em><br>
+		    <strong>Authors:</strong> Konstantinos Nikellis, Garth Sundberg, Yiannis Moisiadis and Stefanos Stefanou<br>
+		    <strong>Affiliation:</strong> Ansys, Inc.<br>
+		    <br>
+		    <strong>Paper Title:</strong> <em>Q-Fusion: Diffusing Quantum Circuits</em><br>
+		    <strong>Authors:</strong> Collin Beaudoin and Swaroop Ghosh<br>
+		    <strong>Affiliation:</strong> The Pennsylvania State University<br>
+		    <br>
+		    <strong>Paper Title:</strong> <em>Quantum Properties Trojans (QuPTs) for Attacking Quantum Neural Networks</em><br>
+		    <strong>Authors:</strong> Sounak Bhowmik, Travis Humble and Himanshu Thapliyal<br>
+		    <strong>Affiliations:</strong> Oak Ridge National Laboratory, University of Tennessee - Knoxville<br>
+		  <br>
+		    <strong>Paper Title:</strong> <em>Breaking Down Quantum Compilation: Profiling and Identifying Costly Passes</em><br>
+		    <strong>Authors:</strong> Felix Zilk, Alessandro Tundo, Vincenzo De Maio and Ivona Brandic<br>
+		    <strong>Affiliation:</strong> Technical University of Vienna</p>
+
+		  <p style="text-align:justify;">These papers were selected based on technical quality, originality, clarity, and relevance by the Technical Program Committee.</p>
+
+		  <p style="text-align:justify;">We congratulate the winners and thank all authors for their valuable contributions to ISVLSI 2025!</p>
+		
+          
+<br>
+<br>
+
+    
       </center>
         </div>
       </div>
@@ -259,7 +651,7 @@
           <center>
             <h1>Organizers</h1>
            <a target="_blank" href="https://www.uop.gr/"><img src="images/logo_uop.png" alt="" width="125" height="120"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
-           <a target="_blank" href="https://www.ece.uop.gr/"><img src="images/BLUE%20Logo%20ECE%20(Full%20-%20Vertical)%20%5bWEB%5d.png" alt="" width="80" height="120"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+           <a target="_blank" href="https://www.ece.uop.gr/"><img src="images/BLUE Logo ECE (Full - Vertical) [WEB].png" alt="" width="80" height="120"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
            <a target="_blank" href="https://esdalab.ece.uop.gr/"><img src="images/logo_esdalab.png" alt="" width="135" height="120"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
            <a target="_blank" href="https://ecsalab.ece.uop.gr/"><img src="images/ECSA_lab_logo.png" alt="" width="92" height="120"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
           </center>
@@ -326,15 +718,15 @@
             <h1>Conference Management</h1>
            <div class="img-row">
            	<div class="img-column">
-           <a target="_blank" href="https://www.fastravel.gr/"><img src="images/fastravel_logo.png" alt="" width="216" height="100"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
+           <a target="_blank" href="https://www.fastravel.gr"><img src="images/fastravel_logo.png" alt="" width="216" height="100"> </a>&nbsp;&nbsp;&nbsp;&nbsp;
            <p>
            Othonos Amalias 12A, Patras, Achaia, 26223<br>
            Telephone: +30 2610 622500<br>
-           E-mail: <a target="_blank" rel="noreferrer" data-behavior="truncate" href="mailto:info@fastravel.gr">info@fastravel.gr</a></p>
+           E-mail: <a target="_blank" rel="noreferrer" data-behavior="truncate" href="mailto:info@fastravel.gr">info@fastravel.gr</a></p>
            	</div>
 
            	<div class="img-column">          
-           <a target="_blank" href="https://www.viva.com/"><img src="images/viva.jpg" alt="" width="521" height="180"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a target="_blank" href="https://www.viva.com"><img src="images/viva.jpg" alt="" width="521" height="180"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            	</div>
            	<br>
           <br>
@@ -480,7 +872,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="documents/IEEE%20Policies.pdf" target="_blank">IEEE Policies</a>
+                        <a href="documents/IEEE Policies.pdf" target="_blank">IEEE Policies</a>
                     </div>
                 </div>
                 <div class="row">
@@ -513,9 +905,9 @@
 
         <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script src="../../s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-        <link rel="stylesheet" type="text/css" href="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-        <script src="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
         <script>
             window.addEventListener("load", function(){
                 window.cookieconsent.initialise(json)
@@ -525,6 +917,4 @@
 
 
 <!-- Mirrored from www.ufrgs.br/isvlsi2023/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 20:13:51 GMT -->
-
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:35:12 GMT -->
 </html>

@@ -1,8 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/registration2025.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:35:32 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +25,15 @@
 
   gtag('config', 'G-HXW5MFWZJZ');
 </script>
+<script>
+	$(document).ready(function(){
+	  $('.dropdown-submenu a.dropdown-toggle').on("click", function(e){
+		$(this).next('ul').toggle();
+		e.stopPropagation();
+		e.preventDefault();
+	  });
+	});
+  </script>
 </head>
 
 <body>
@@ -33,7 +41,7 @@
     <center>
         <table style="table-layout:fixed;width=100%;margin-left:1%">
             <tr>
-                <td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
+                <td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="./Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
                 <td style="">
                     <div class="container" style="width:100%">
                         <div class="navbar-header">
@@ -46,45 +54,58 @@
                                 <li><a href="index.html" style="color:white;font-size:17px">Home</a></li>
 
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Call for Papers<span class="caret"></a>
-                                    <ul class="dropdown-menu" style="color:white;background-color:white">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">CfP & Submission<span class="caret"></a>
+                                    <ul class="dropdown-menu" style="color:white;background-color:white">	
+                                      <li class="dropdown-submenu">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:black;font-size:17px">Call for Papers<span class="caret"></a>
+                                        <ul class="dropdown-menu" style="color:white;background-color:white">
                                         <li><a href="call-for-papers.html" style="color:black;">Main Conference Track</a></li>
                                         <li><a href="call-for-special-sessions.html" style="color:black;">Special Sessions</a></li>
                                         <li><a href="call-for-industry-forum.html" style="color:black;">Industry Forum</a></li>
                                         <li><a href="call-for-student-forum.html" style="color:black;">Student Research Forum</a></li>
                                         <li><a href="collaborative-research-projects.html" style="color:black;">Collaborative Research Projects</a></li>
-                            			<li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+                                        <li><a href="research_demo_session.html" style="color:black;">Research Demo Session</a></li>
+                                        <li><a href="call-for-late-breaking-research.html" style="color:black;">Late Breaking Research</a></li>     
+                                        <li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+                                        </ul>
+                                      </li>
+                                      
+                                      <li><a href="paper.html" style="color:black;font-size:17px">Paper Submission</a></li>
                                     </ul>
-                                </li>
-
-                                <li><a href="paper.html" style="color:white;font-size:17px">Paper Submission</a></li>
+                                    </li>
                                 <li><a href="registration2025.html" style="color:white;font-size:17px">Registration</a></li>
-                                <li><a href="nsf-travel-grants.html" style="color:white;font-size:17px">NSF Travel Grants</a></li>
                                 <li><a href="keynotes.html" style="color:white;font-size:17px">Keynotes</a></li>
                                 <li><a href="tutorials.html" style="color:white;font-size:17px">Tutorials</a></li>
+                                <li><a href="smart4women.html" style="color:white;font-size:17px">Smart4Women</a></li>
                                 <li><a href="committees.html" style="color:white;font-size:17px">Committees</a></li>
 
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Travel to Greece<span class="caret"></a>
+                                    <ul class="dropdown-menu" style="color:white;background-color:white">
+                                    <li><a href="nsf-travel-grants.html" style="color:black;font-size:17px">NSF Travel Grants</a></li>
+                                    <li><a href="venue.html" style="color:black;font-size:17px">Venue & VISA</a></li>
+                                    <li><a href="social-event.html" style="color:black;font-size:17px">Events & Tourism</a></li>
+                                    </ul>
+                                </li>                                
 
-                                <li><a href="venue.html" style="color:white;font-size:17px">Venue</a></li>
-                                <li><a href="social-event.html" style="color:white;font-size:17px">Events & Tourism</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Past Conferences <span class="caret"></a>
                                     <ul class="dropdown-menu" style="color:white;background-color:white">
                                         <li>
-                                            <a href="../ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a>
+                                            <a href="http://www.ieee-isvlsi.org/ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a>
                                         </li>
-                                        <li><a href="../ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
-                                        <li><a href="../ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
-                                        <li><a href="../ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
-                                        <li><a href="../ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
-                                        <li><a href="../ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
-                                        <li><a href="../ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
-                                        <li><a href="../ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
-                                        <li><a href="../ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
-                                        <li><a href="../ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
-                                        <li><a href="../ISVLSI_2014_Website/index.html" target="_blank" style="color:black;">ISVLSI 2014</a></li>
-                                        <li><a href="../ISVLSI_2013_Website/index.html" target="_blank" style="color:black;">ISVLSI 2013</a></li>
-                                        <li><a href="../ISVLSI_2012_Website/index.html" target="_blank" style="color:black;">ISVLSI 2012</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2014_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2014</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2013_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2013</a></li>
+                                        <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2012_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2012</a></li>
 
                                     </ul>
                                 </li>
@@ -111,11 +132,11 @@
             <div class="col-md-12">
                 <h2 style="text-align:justify;">Online Registration</h2>
 
-                <h3 style="text-align:justify;">Important Author Information</h3>
-                <p style="text-align:justify;">
-                    Registration will take place via professional online registration service. Once the registration has opened, the online registration service will be made available here.
-                </p>
-                <br>
+                <p style="text-align:justify;"><strong>Registration for IEEE ISVLSI 2025 is Now Open!</strong></p>
+                <p style="text-align:justify;">An online registration system is available for your convenience.</p>
+                <p style="text-align:justify;">To register, please visit the <a href="https://register-isvlsi2025.fastravel.gr/" target="_blank">official registration page </a>of the conference.</p>
+                
+                <h3 style="text-align:justify;">Important Author Information              </h3>
               <p style="text-align:justify;"><strong>Conference authors (main track & special sessions)</strong></p>
 <p style="text-align:justify;">At least one author per paper must be registered as conference AUTHOR. Each conference author registration covers up to two (2) fully accepted conference submissions (full or short papers, posters) with at least one common author. It is mandatory for the conference registered person in common to attend the conference and present the paper(s) or poster(s) associated with his/her registration.</p>
                 <p style="text-align:justify;">
@@ -134,9 +155,14 @@
                 <p style="text-align:justify;">During your conference registration, please make sure to provide your workshop/conference Paper(s) ID(s) in the online registration form.</p>
 
                 <h3 style="text-align:justify;">Conference Registration Types and Pricing</h3>
-                <p style="text-align:justify;">Conference registration fees are currently under approval by IEEE.</p>
-                <p style="text-align:justify;">Each accepted paper requires a full registration by <strong>May 30th, 2025 (GMT+3)</strong>.</p>
-                <p style="text-align:justify;">Early registration rates are available until <strong>May 25th, 2025 (GMT+3)</strong>.</p>
+                <p style="text-align:justify;"><strong>Registration Options:</strong></p>
+              <ul style="text-align: justify;margin-left:30px">
+                  <li><strong>Authors:</strong> Please <a href="https://register-isvlsi2025.fastravel.gr/" target="_blank">register</a> by the author registration deadline to ensure inclusion of your paper in the proceedings. Each accepted paper requires an author registration by <strong>May 30th, 2025 (GMT+3)</strong>. </li>
+                  <li><strong>Attendees:</strong> <a href="https://register-isvlsi2025.fastravel.gr/" target="_blank">Join us</a> in Kalamata, Greece, and take part in exciting technical sessions, networking opportunities, and more.</li>
+                </ul>
+                <br>
+                <p style="text-align:justify;">Early registration rates are available until <strong>May 25th, 2025 (GMT+3)</strong>.                </p>
+                
                 <h3><strong>Conference Registration</strong></h3>
                 <table class="table table-bordered aligned-table">
                     <thead>
@@ -213,18 +239,25 @@
                     </tbody>
                 </table>
 
-                <p style="text-align:justify;">Each workshop registration provides full access to workshop's sessions, coffee and lunch breaks of the conference for the day of the workshop (social events are not included) and conference co-located events. Registered workshop attendees will receive on site the welcome conference pack.</p>
+                <p style="text-align:justify;">Each workshop registration provides full access to workshop's sessions, coffee and lunch breaks of the conference for the day of the workshop (social events are not included) and conference co-located events. Registered workshop attendees will receive on site the welcome conference pack.</p>
 
+                <h3 style="text-align:justify;">Student Registration Requirements</h3>
+                <p style="text-align:justify;">All participants registered under the <strong>student category</strong> are required to submit a copy of their valid <strong>student ID card via email</strong> prior to the conference. The <strong>conference secretariat</strong> will contact all student registrants with further instructions.</p>
+                <p style="text-align:justify;">Please note that <strong>physical attendance by the registered student</strong> is mandatory. Student ID cards must also be presented <strong>in person at the conference secretariat</strong> upon arrival.</p>
+                <p style="text-align:justify;">If a paper is to be presented by a <strong>co-author who is not a student</strong>, that individual must register under <strong>one of the non-student categories</strong>.</p>
+                <p style="text-align:justify;"> Failure to comply with these requirements will result in the <strong>exclusion of the paper from ΙΕΕΕ Xplore and the conference proceedings</strong>.</p>
+                
                 <h3 style="text-align:justify;">Cancellation Policy</h3>
                 <p style="text-align:justify;">All refund/cancellation requests must be received by <strong>June 15th, 2025, 23:59 (GMT+3)</strong>. There will be an administrative fee of 50% of the registration fee for canceled registrations. Author registrations are non-refundable.</p>
+                <p style="text-align:justify;">Registration fees for visa applicants are non-refundable once an official invitation letter has been issued by the conference organizers.</p>
                 
               <h3 style="text-align:justify;">No-Show Policy</h3>
               <p style="text-align:justify;">We value every participant's  time and commitment to ISVLSI 2025, and we strive to deliver a high-quality  experience for all attendees. In order to maintain the integrity of our event  and ensure that resources are used effectively, we have implemented the  following No-Show Policy:</p>
                 <ol style="text-align: justify;margin-left:30px" start="1" type="1">
                   <li><strong>Attendance Confirmation</strong><br>
-                    All registered participants are expected to attend the sessions and events       they have signed up for. This helps us manage capacity and provide the       best possible experience for everyone.</li>
+                    All registered participants are required to attend in person the sessions and events they have enrolled in. This helps us manage capacity and provide the best possible experience for everyone.</li>
                   <li><strong>Cancellation Notice</strong><br>
-                    If you are unable to       attend, please check the conference cancelation policy and notify the       conference organizers by <strong>June 15th, 2025, 23:59 (GMT+3) </strong>via email       in <a href="mailto:ISVLSI2025@gmail.com">ISVLSI2025@gmail.com</a>; please Cc also conference secretariat (<a href="mailto:s.kouna@esdalab.ece.uop.gr">s.kouna@esdalab.ece.uop.gr</a>) and conference management (<a href="mailto:info@fastravel.gr">info@fastravel.gr</a>). </li>
+                    If you are unable to       attend, please check the conference cancelation policy and notify the       conference organizers by <strong>June 15th, 2025, 23:59 (GMT+3) </strong>via email       in <a href="mailto:ISVLSI2025@gmail.com">ISVLSI2025@gmail.com</a>; please Cc also conference secretariat (<a href="mailto:s.kouna@esdalab.ece.uop.gr">s.kouna@esdalab.ece.uop.gr</a>) and conference management (<a href="mailto:info@fastravel.gr">info@fastravel.gr</a>). Cancellations after <strong>June 15th, 2025, 23:59 (GMT+3)</strong> <span style="color:red;">will not be refunded</span>.</li>
                   <li><strong>No-Show Definition</strong><br>
                     A &quot;no-show&quot; is defined as a registered participant who does not       attend the conference, workshop or scheduled sessions without prior notice or       cancellation.</li>
                   <li><strong>Policy Enforcement</strong><br>
@@ -374,7 +407,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="documents/IEEE%20Policies.pdf" target="_blank">IEEE Policies</a>
+                        <a href="documents/IEEE Policies.pdf" target="_blank">IEEE Policies</a>
                     </div>
                 </div>
                 <div class="row">
@@ -400,6 +433,4 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 
-
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/registration2025.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:35:32 GMT -->
 </html>

@@ -1,11 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 
 <!-- Mirrored from www.ufrgs.br/isvlsi2023/social-event.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 20:14:12 GMT -->
-<!-- Added by HTTrack -->
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/tutorials.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:35:34 GMT -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,6 +28,15 @@
 
   gtag('config', 'G-HXW5MFWZJZ');
 </script>
+<script>
+	$(document).ready(function(){
+	  $('.dropdown-submenu a.dropdown-toggle').on("click", function(e){
+		$(this).next('ul').toggle();
+		e.stopPropagation();
+		e.preventDefault();
+	  });
+	});
+  </script>
 </head>
 
 <body>
@@ -37,7 +45,7 @@
     <center>
     <table style="table-layout:fixed;width=100%;margin-left:1%">
 	<tr>
-	<td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
+	<td style="padding-right:10px;vertical-align:top"><a href="index.html"><img src="./Logo_ISVLSI_2025.svg" height="160px"></a href="index.html"></td>
 	<td style="">
 	<div class="container" style="width:100%">
       <div class="navbar-header">
@@ -50,44 +58,56 @@
 		  <li><a href="index.html" style="color:white;font-size:17px">Home</a></li>
 		  
 		  <li class="dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Call for Papers<span class="caret"></a>
-			<ul class="dropdown-menu" style="color:white;background-color:white">
-			<li><a href="call-for-papers.html" style="color:black;">Main Conference Track</a></li>
-			<li><a href="call-for-special-sessions.html" style="color:black;">Special Sessions</a></li>
-			<li><a href="call-for-industry-forum.html" style="color:black;">Industry Forum</a></li>
-			<li><a href="call-for-student-forum.html" style="color:black;">Student Research Forum</a></li>
-			<li><a href="collaborative-research-projects.html" style="color:black;">Collaborative Research Projects</a></li>
-			<li><a href="research_demo_session.html" style="color:black;">Research Demo Session</a></li>
-			<li><a href="call-for-late-breaking-research.html" style="color:black;">Late Breaking Research</a></li>     
-			<li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">CfP & Submission<span class="caret"></a>
+			<ul class="dropdown-menu" style="color:white;background-color:white">	
+			  <li class="dropdown-submenu">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:black;font-size:17px">Call for Papers<span class="caret"></a>
+				<ul class="dropdown-menu" style="color:white;background-color:white">
+				<li><a href="call-for-papers.html" style="color:black;">Main Conference Track</a></li>
+				<li><a href="call-for-special-sessions.html" style="color:black;">Special Sessions</a></li>
+				<li><a href="call-for-industry-forum.html" style="color:black;">Industry Forum</a></li>
+				<li><a href="call-for-student-forum.html" style="color:black;">Student Research Forum</a></li>
+				<li><a href="collaborative-research-projects.html" style="color:black;">Collaborative Research Projects</a></li>
+				<li><a href="research_demo_session.html" style="color:black;">Research Demo Session</a></li>
+				<li><a href="call-for-late-breaking-research.html" style="color:black;">Late Breaking Research</a></li>     
+				<li><a href="quantum-computing-workshop.html" style="color:black;">Quantum Computing Workshop</a></li>
+				</ul>
+			  </li>
+			  
+			  <li><a href="paper.html" style="color:black;font-size:17px">Paper Submission</a></li>
 			</ul>
-		  </li>
-		  
-		  <li><a href="paper.html" style="color:white;font-size:17px">Paper Submission</a></li>
+			</li>
 			<li><a href="registration2025.html" style="color:white;font-size:17px">Registration</a></li>
-			<li><a href="nsf-travel-grants.html" style="color:white;font-size:17px">NSF Travel Grants</a></li>
 			<li><a href="keynotes.html" style="color:white;font-size:17px">Keynotes</a></li>
 			<li><a href="tutorials.html" style="color:white;font-size:17px">Tutorials</a></li>
+			<li><a href="smart4women.html" style="color:white;font-size:17px">Smart4Women</a></li>
 			<li><a href="committees.html" style="color:white;font-size:17px">Committees</a></li>
+
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Travel to Greece<span class="caret"></a>
+			<ul class="dropdown-menu" style="color:white;background-color:white">
+			<li><a href="nsf-travel-grants.html" style="color:black;font-size:17px">NSF Travel Grants</a></li>
+			<li><a href="venue.html" style="color:black;font-size:17px">Venue & VISA</a></li>
+			<li><a href="social-event.html" style="color:black;font-size:17px">Events & Tourism</a></li>
+			</ul>
+		</li>			
 		  
-		  <li><a href="venue.html" style="color:white;font-size:17px">Venue</a></li>
-		  <li><a href="social-event.html" style="color:white;font-size:17px">Events & Tourism</a></li>
 		 <li class="dropdown">
 		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" style="color:white;font-size:17px">Past Conferences <span class="caret"></a>
 		  <ul class="dropdown-menu" style="color:white;background-color:white">
-			  <li><a href="../ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a></li>
-			<li><a href="../ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
-			<li><a href="../ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
-			<li><a href="../ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
-			<li><a href="../ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
-			<li><a href="../ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
-			<li><a href="../ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
-			<li><a href="../ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
-			<li><a href="../ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
-			<li><a href="../ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
-			<li><a href="../ISVLSI_2014_Website/index.html" target="_blank" style="color:black;">ISVLSI 2014</a></li>
-			<li><a href="../ISVLSI_2013_Website/index.html" target="_blank" style="color:black;">ISVLSI 2013</a></li>
-			<li><a href="../ISVLSI_2012_Website/index.html" target="_blank" style="color:black;">ISVLSI 2012</a></li>
+			  <li><a href="http://www.ieee-isvlsi.org/ISVLSI_2024_Website/index.html" target="_blank" style="color:black;">ISVLSI 2024</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2023_Website/index.html" target="_blank" style="color:black;">ISVLSI 2023</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2022_Website/index.html" target="_blank" style="color:black;">ISVLSI 2022</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2021_Website/index.html" target="_blank" style="color:black;">ISVLSI 2021</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2020_Website/index.html" target="_blank" style="color:black;">ISVLSI 2020</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2019_Website/index.html" target="_blank" style="color:black;">ISLVSI 2019</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2018_Website/index.html" target="_blank" style="color:black;">ISVLSI 2018</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2017_Website/index.html" target="_blank" style="color:black;">ISVLSI 2017</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2016_Website/index.html" target="_blank" style="color:black;">ISVLSI 2016</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2015_Website/index.html" target="_blank" style="color:black;">ISVLSI 2015</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2014_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2014</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2013_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2013</a></li>
+			<li><a href="http://www.ieee-isvlsi.org/ISVLSI_2012_Website/index.htm" target="_blank" style="color:black;">ISVLSI 2012</a></li>
 			
 		  </ul>
 		 </li>
@@ -114,7 +134,7 @@
 		<div class="col-md-12">
             <div class="keynote-profiles-container">
 				<div class="keynote-profile">
-					<h2><strong>Enabling Emerging Technologies for Pervasive Intelligence – From Chips to Systems</strong></h2>
+					<h2><strong id="Brandon_Wang">Enabling Emerging Technologies for Pervasive Intelligence – From Chips to Systems</strong></h2>
 					<div class="text">
 					<h4><strong>Abstract:</strong></h4>
 					<p>The rapid evolution of computing is ushering in a new era of pervasive intelligence, fueled by ubiquitous AI, the proliferation of silicon, and the rise of software-driven systems. This talk will explore the potential of next generation computing paradigms, including neuromorphic and quantum computing, in redefining system architectures for the future. Additionally, the speaker will highlight Synopsys’ latest innovations—such as advanced multi-die solutions, SLM, and AI-accelerated tools—designed to empower engineers in building intelligent, high-performance systems that drive the next wave of technological breakthroughs.</p>
@@ -139,7 +159,7 @@
 		<div class="col-md-12">
             <div class="keynote-profiles-container">
 				<div class="keynote-profile">
-					<h2><strong>Trends and Challenges on EDA</strong></h2>
+					<h2><strong id="Ricardo_Reis">Trends and Challenges on EDA</strong></h2>
 					<div class="text">
 					<h4><strong>Abstract:</strong></h4>
 					<p>The design quality of modern chips depends on the quality of the EDA tools used in the design flow. With the evolution of nanotechnologies new EDA tools are needed. Some trends and Challenges on EDA to cope with the evolution of manufacturing processes will be presented. An important set of EDA tools nowadays are the ones to reduce power consumption at all levels of design abstraction. Power Optimization is fundamental in the IoT world. At logic and physical level, it is needed to reduce the transistor count to reduce leakage power. Also, the use of estimation tools dedicated to each design level and visualization tools are more and more important in modern design flows.</p>
@@ -160,9 +180,140 @@
 				</div>
 			</div>
 		</div>
-        
 
-		</center>
+		<div class="col-md-12">
+            <div class="keynote-profiles-container">
+				<div class="keynote-profile">
+					<h2><strong id="Chakrabarti_Deb_Das">Efficient RISC-V Compute Platform for Enabling AI Revolution</strong></h2>
+				  <div class="text">
+					<h4><strong>Abstract:</strong></h4>
+                    <p>RISC-V is  an open-source instruction set architecture (ISA) that has gained significant  traction due to its flexibility, modularity, and customization options. This  tutorial aims to provide a comprehensive overview of the RISC-V ISA, its design  methodology, and the design process.                      </p>
+                    <p>The  following key topics will be covered: </p>
+                    <ul style="text-align: justify;margin-left:30px">
+                      <li>
+                        RISC-V  ISA Fundamentals: An exploration of the core elements of the RISC-V ISA,  including the instruction set, addressing modes, and privilege levels. </li>
+                      <li> Customizing the RISC-V ISA: Discussion on the methods and motivations for  modifying and extending the RISC-V ISA to address specific application needs. </li>
+                      <li> RISC-V  Design Flow: An introduction to the design flow of a RISC-V processor,  including microarchitecture design, register-transfer level implementation,  verification, and synthesis. </li>
+                      <li> RISC-V  Toolchain and Ecosystem: An overview of available tools within the RISCV  environment, including compilers, assemblers, linkers, simulators, and  debuggers.</li>
+                      <li>RISC-V Applications and Use Cases: A review  of various applications and use cases for RISC-V, including examples from AI on  edge, embedded systems and high-performance computing.</li>
+                    </ul>
+          			<p>The  tutorial will be led by a team of experts deeply engaged in RISC-V research,  development, and application, providing participants with valuable insights and  practical knowledge. Attendees will leave with a solid understanding of RISC-V  architecture, design, and its application potential.</p>
+                  </div>
+                    <br>	 
+                    
+                 <div class="keynote-grid"> 
+                  <div class="row-grid2">  
+                  
+                  <!--Speakers-->
+                    <div class="grid-item">		
+                    <img src="images/tutorials_speakers/Amlan_Chakrabarti_photo.jpg" alt="Amlan Chakrabarti">       
+                    <div class="info">
+					<h1>Amlan Chakrabarti</h1>
+					<br>
+					<h4>Professor & Director of A.K. Choudhury School of IT<br>
+						<em>University of Calcutta & Adjunct Professor IIIT Delhi</em></h4>    
+					</div>  
+                    </div>      
+                    
+                 	<div class="grid-item">
+                    <img src="images/tutorials_speakers/Sujay_Deb_photo.jpg" alt="Sujay Deb"> 
+					<div class="info">
+					<h1>Sujay Deb</h1>
+					<br>
+					<h4>Institute Chair Professor, Dept. of ECE & CSE<br>
+						<em>IIIT Delhi, India</em></h4>
+      
+                    </div>
+                    </div>                                        
+                       
+					<!-- <div class="grid-item">	            			
+                    <img src="images/tutorials_speakers/Subhra_Kanti_Das_photo.jpg" alt="Subhra Kanti Das"> 
+                    <div class="info">
+					<h1>Subhra Kanti Das</h1>
+					<br>
+					<h4>Head, RISC-V Research, Research and Technology<br>
+						<em>Thales in India</em></h4>	 
+					</div>
+                    </div>   -->
+                                                                           
+                    
+                   </div> <!-- row-grid-->
+                    
+                    <!--Buttons-->
+                    <div class="row-grid2">
+                    <div><a href="documents/Amlan_Chakrabarti_bio_2025.pdf" target="_blank">Get full CV</a> </div>
+                    <div><a href="documents/Sujay_Deb_bio_2025.pdf" target="_blank">Get full CV</a> </div>
+                    <!-- <div><a href="documents/Subhra_Kanti Das_bio_2025.pdf" target="_blank">Get full CV</a> </div>                     -->
+                   </div> <!--row-grid-->
+                    
+                   </div><!-- keynote grid-->                    
+				</div>
+			</div>
+		</div>      
+        
+        
+		<div class="col-md-12">
+            <div class="keynote-profiles-container">
+				<div class="keynote-profile">
+					<h2><strong id="Aziz_Dang">Carbon-Aware Exascale Computing: Device modeling to System Design using Silicon Photonics</strong></h2>
+				  <div class="text">
+					<h4><strong>Abstract:</strong></h4>
+                    <p>The  rapid proliferation of Large Language Models (LLMs), Graph Neural Networks  (GNNs), and other data-intensive AI workloads is pushing the boundaries of  compute scalability and energy efficiency. Traditional CMOS-based interconnects  and accelerators are increasingly<br>
+bottlenecked  by thermal constraints, data movement energy, and carbon emissions.</p>
+                    <p>This  tutorial addresses a critical and emerging direction: the use of Silicon  Photonics (SiPh) to<br>
+                      enable  next generation exascale systems that are not only performant but also  environmentally<br>
+                      sustainable.  We aim to bridge the gap between device-level innovations, circuit and system<br>
+                      modeling,  and carbon-aware system architecture for VLSI designers and researchers. By  bringing together experts in photonic device modeling and exascale system  design, this<br>
+                      tutorial  will present a holistic and vertically integrated view that spans:</p>
+                    <ol style="text-align: justify;margin-left:30px">
+                      <li>Device modeling (new materials, compact models)</li>
+                      <li>Circuit-level simulation of photonic networks</li>
+                      <li>Architectural modeling for carbon-optimized acceleration</li>
+                    </ol>
+                    <p>We  will conclude with a hands-on session showcasing open-source tools for photonic  device<br>
+                      simulation and system-level evaluation. </p>
+                  </div>
+                    <br>	 
+                    
+                  <div class="keynote-grid"> 
+                  <div class="row-grid2">   
+                  
+                  <!--Speakers-->
+                    <div class="grid-item">		
+                    <img src="images/tutorials_speakers/Dharanidhar_Dang_photo.jpg" alt="Dharanidhar Dang">       
+                    <div class="info">
+					<h1>Dharanidhar Dang</h1>
+					<br>
+					<h4>Assistant Professor,  Department of Electrical & Computer Engineering<br>
+						<em>University of Texas, San Antonio (UTSA)</em></h4>    
+					</div>  
+                    </div>       
+                    
+                  <div class="grid-item"> 
+                    <img src="images/tutorials_speakers/Ahmedullah_Aziz_photo.jpg" alt="Ahmedullah Aziz"> 
+					<div class="info">
+					<h1>Ahmedullah Aziz</h1>
+					<br>
+					<h4>Assistant Professor, Department of Electrical Engineering and Computer Science<br>
+						<em>University of Tennessee Knoxville, USA</em></h4>
+      
+                    </div>
+                    </div>              
+                    
+                   </div><!--  row-grid-->
+                    
+                    <!--Buttons-->
+                    <div class="row-grid2">
+                    <div><a href="documents/Dharanidhar_Dang_bio_2025.pdf" target="_blank">Get full CV</a> </div> 
+                    <div><a href="documents/Ahmedullah_Aziz_bio_2025.pdf" target="_blank">Get full CV</a> </div>                 
+                   </div> <!--row-grid-->
+                    
+                   </div><!-- keynote grid-->     
+              
+				</div> 
+			</div>
+		</div>     
+
 	  </div>
     </div>
   <!-- What we do Section -->
@@ -230,7 +381,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<a href="documents/IEEE%20Policies.pdf" target="_blank">IEEE Policies</a>
+						<a href="documents/IEEE Policies.pdf" target="_blank">IEEE Policies</a>
 					</div>
 				</div>
                 <div class="row">
@@ -264,6 +415,4 @@
 
 
 <!-- Mirrored from www.ufrgs.br/isvlsi2023/social-event.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Nov 2023 20:14:12 GMT -->
-
-<!-- Mirrored from www.ieee-isvlsi.org/ISVLSI_2025_Website/tutorials.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Apr 2025 15:35:35 GMT -->
 </html>
