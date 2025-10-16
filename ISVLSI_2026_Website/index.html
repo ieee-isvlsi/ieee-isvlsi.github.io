@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from byteminds.in/isvlsi/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 14:19:38 GMT -->
+<!-- Mirrored from byteminds.in/isvlsi/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 16:28:11 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
@@ -296,6 +296,137 @@ class="post-23 page type-page status-publish ast-article-single" id="post-23" it
 
 	
 	
+<style>
+/* === Horizontal Ribbon === */
+.ribbon-vertical {
+  position: fixed;
+  top: 310px;
+  left: 0;
+  z-index: 1000;
+  background: linear-gradient(180deg, #023e7d, #0563c1);
+  color: #fff;
+  padding: 0.2rem 0.2rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  writing-mode: horizontal-rl;
+  text-orientation: mixed;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  cursor: pointer;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* Ribbon hidden state */
+.ribbon-vertical.closed {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* Close button */
+.ribbon-close-btn {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  transform: rotate(-90deg);
+}
+
+.ribbon-close-btn:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* Reopen toggle button */
+.ribbon-toggle-btn {
+  position: fixed;
+  top: 320px;
+  left: 0;
+  background: #023e7d;
+  color: #fff;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0.5rem 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: none;
+  z-index: 999;
+  transition: transform 0.4s ease;
+}
+
+.ribbon-toggle-btn:hover {
+  background: #045cb4;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(2,62,125,0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(2,62,125,0); }
+  100% { box-shadow: 0 0 0 0 rgba(2,62,125,0); }
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .ribbon-vertical {
+    font-size: 0.85rem;
+    top: 100px;
+  }
+  .ribbon-toggle-btn {
+    top: 100px;
+  }
+}
+</style>
+
+<!-- Ribbon -->
+<div id="ribbonVertical" class="ribbon-vertical">
+  <a href="https://easychair.org/conferences/?conf=isvlsi2026" target="_blank" style="color: #fff; text-decoration: none;">
+    📢 Paper Submission is Live
+  </a>
+  <button class="ribbon-close-btn" onclick="closeRibbon()">&times;</button>
+</div>
+
+<!-- Reopen Button -->
+<button id="ribbonToggle" class="ribbon-toggle-btn" onclick="openRibbon()">📢</button>
+
+<script>
+function closeRibbon() {
+  const ribbon = document.getElementById('ribbonVertical');
+  const toggle = document.getElementById('ribbonToggle');
+  ribbon.classList.add('closed');
+  setTimeout(() => {
+    ribbon.style.display = 'none';
+    toggle.style.display = 'block';
+  }, 400);
+}
+
+function openRibbon() {
+  const ribbon = document.getElementById('ribbonVertical');
+  const toggle = document.getElementById('ribbonToggle');
+  ribbon.style.display = 'flex';
+  setTimeout(() => ribbon.classList.remove('closed'), 10);
+  toggle.style.display = 'none';
+}
+</script>
+
+
+
+
 <h2 class="wp-block-heading has-text-align-center" style="padding-top:var(--wp--preset--spacing--30)">ISVLSI 2026</h2>
 
 
@@ -461,17 +592,17 @@ class="post-23 page type-page status-publish ast-article-single" id="post-23" it
     
     <div class="sponsor-grid">
         <div class="sponsor-item">
-            <img decoding="async" src="../../ieee-isvlsi.github.io/ISVLSI_2025_Website/images/logo_ieee2.png" alt="TechCorp" class="sponsor-logo">
+            <img decoding="async" src="wp-content/uploads/2025/10/logo_ieee2.png" alt="TechCorp" class="sponsor-logo">
         </div>
         <div class="sponsor-item">
-            <img decoding="async" src="../../ieee-isvlsi.github.io/ISVLSI_2025_Website/images/logo_ieeetc.png" alt="InnoSoft" class="sponsor-logo">
+            <img decoding="async" src="wp-content/uploads/2025/10/logo_ieeetc.png" alt="InnoSoft" class="sponsor-logo">
         </div>
        
         <div class="sponsor-item">
-            <img decoding="async" src="../../ieee-isvlsi.github.io/ISVLSI_2025_Website/images/logo-ieee.png" alt="DataFlow" class="sponsor-logo">
+            <img decoding="async" src="wp-content/uploads/2025/10/logo-ieee.png" alt="DataFlow" class="sponsor-logo">
         </div>
         <div class="sponsor-item">
-            <img decoding="async" src="../../ieee-isvlsi.github.io/ISVLSI_2025_Website/images/logo_cas2.png" alt="CloudNine" class="sponsor-logo">
+            <img decoding="async" src="wp-content/uploads/2025/10/logo_cas2.png" alt="CloudNine" class="sponsor-logo">
         </div>
         
     </div>
@@ -739,5 +870,5 @@ jQuery(document).ready(function($) {
 			</script>
 				</body>
 
-<!-- Mirrored from byteminds.in/isvlsi/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 14:19:38 GMT -->
+<!-- Mirrored from byteminds.in/isvlsi/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 16:28:12 GMT -->
 </html>
